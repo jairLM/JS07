@@ -131,8 +131,8 @@ printCurrentData = (data) =>{  //funcion para imprimir los datos si es que ya es
                      </tr>`
     }
 
-    const idDom = document.getElementById('id');
-    idDom.innerHTML = idPeople;
+    const idDom = document.getElementById('id'); //elemento donde se colocara la estructura de los datos
+    idDom.innerHTML = idPeople; 
    
 
 }
